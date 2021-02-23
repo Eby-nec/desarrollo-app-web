@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Administrador</title>
+        <link rel="stylesheet" href="estilo.css">
+        
+    </head>
+
+    <body>
+        <header>
+            <img src="logoEby.png" alt="logoEby" width="100%" height="100%">
+            </header>
+        <nav>
+            <ul>
+                <li class="item"><a href="index.html">Inicio</a></li>                
+                <li class="item"><a href="#">Profesor</a></li> 
+                <li class="item"><a href="administrador.html">Administrador</a></li>               
+                <li><a href="#">Alumno</a></li>
+                <li class="itema"><a href="#">Contacto</a></li>    
+                <li class="itema"><a href="#">About</a></li>
+               
+            </ul>
+        </nav>
+        <main>
+            <h3>Administrador</h3>
+            <form action="#" method="POST">
+               <fieldset>
+                    <legend>Datos</legend>
+                    <p>Elige si eres profesor o alumno</p>
+                    <label for="alumProfe"></label>
+                    <select name="alumProfe" id="alumProfe">
+                        <option value="alumno">Alumno</option>
+                        <option value="profesor">Profesor</option>
+                    </select>
+
+                    <br><br>
+                    <label for="nom">Nombre:</label>
+                    <input type="text" id="nombre"><br><br>
+
+                    <label for="apel">Apellido:</label>
+                    <input type="text" id="apel"><br>
+
+                    <label for="altaBaja"></label><br>
+                    <select name="altaBaja" id="altaBaja">
+                        <option value="alta">Alta</option>
+                        <option value="baja">Baja</option>
+                    </select><br><br>
+                </fieldset>
+                <input type="button" value="Enviar">
+            </form>
+        </main>
+        <footer>
+            <address>
+                <p>Calle falsa, 123</p>
+                <p>&#9743; 555-123-456</p>
+            </address>
+            <p>&copy; 2020 - Texto obtenido de Wikipedia.</p>
+        </footer>
+    </body>
+
+</html>
